@@ -16,8 +16,8 @@ This is a Quiz Game Android application with a PHP backend and MySQL database.
 
 ## Demo Video:
 Check out a short demo of the app in action on YouTube:
-[Your YouTube Video Link Here]
-(e.g., `https://www.youtube.com/watch?v=MQ7TWuAYnl0`)
+[Youtube Video]
+(https://www.youtube.com/watch?v=MQ7TWuAYnl0)
 
 ## Setup Instructions:
 
