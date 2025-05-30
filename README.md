@@ -72,7 +72,7 @@ Follow these steps to get the Quiz Game app up and running on your local machine
     *Example (from `DatabaseHelper.java`):*
     ```java
     public class DatabaseHelper {
-        public static final String SERVER_URL = "[http://192.168.56.1/quiz_api/](http://192.168.56.1/quiz_api/)"; // Replace with your local IP
+        public static final String SERVER_URL = "http://192.168.56.1/quiz_api/"; // Replace with your local IP
         // ... rest of the code
     }
     ```
@@ -100,4 +100,4 @@ Follow these steps to get the Quiz Game app up and running on your local machine
 
 ## Contributing:
 
-Feel free to fork this repository, make improvements, and submit pull requests.
+Feel free to fork this repository!
