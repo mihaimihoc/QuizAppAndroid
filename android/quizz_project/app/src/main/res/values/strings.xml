@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">quizz_project</string>
+
+    <string-array name="status_options">
+        <item>Any</item>
+        <item>Answered</item>
+        <item>Unanswered</item>
+        <item>Correct</item>
+        <item>Incorrect</item>
+    </string-array>
+
+    <string-array name="categories_array">
+        <item>All Categories</item>
+        <item>Math</item>
+        <item>History</item>
+        <item>Science</item>
+        <item>Geography</item>
+    </string-array>
+
+</resources>

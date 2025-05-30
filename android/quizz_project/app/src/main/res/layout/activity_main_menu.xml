@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="16dp">
+
+    <!-- Coin display at top right -->
+
+    <!-- App Title - Centered with reduced top margin -->
+    <TextView
+        android:id="@+id/coinBalanceText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="16dp"
+        android:text="Coins: 0"
+        android:textColor="@color/gold"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:letterSpacing="0.1"
+            android:text="QUIZZ"
+            android:textColor="@color/purple_700"
+            android:textSize="48sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:letterSpacing="0.1"
+            android:text="APP"
+            android:textColor="@color/purple_500"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <!-- Button Container - Adjusted spacing and positioning -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/coinBalanceText"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="113dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingVertical="20dp">
+
+        <Button
+            android:id="@+id/profileButton"
+            style="@style/MenuButton"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:layout_marginBottom="12dp"
+            android:text="Profile" />
+
+        <Button
+            android:id="@+id/questionsButton"
+            style="@style/MenuButton"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:layout_marginBottom="12dp"
+            android:text="Questions" />
+
+        <Button
+            android:id="@+id/leaderboardButton"
+            style="@style/MenuButton"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:layout_marginBottom="12dp"
+            android:text="Leaderboard" />
+
+        <Button
+            android:id="@+id/chestButton"
+            style="@style/MenuButton"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:layout_marginBottom="12dp"
+            android:drawableStart="@drawable/ic_chest"
+            android:text="Open Chest" />
+
+        <Button
+            android:id="@+id/settingsButton"
+            style="@style/MenuButton"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:text="Settings" />
+    </LinearLayout>
+
+</RelativeLayout>

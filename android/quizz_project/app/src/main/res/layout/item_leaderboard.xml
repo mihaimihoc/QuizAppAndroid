@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:id="@+id/entryBackground"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:gravity="center_vertical"
+        android:background="?attr/selectableItemBackground">
+
+
+        <TextView
+            android:id="@+id/rankText"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:gravity="center"
+            tools:text="1"/>
+
+        <TextView
+            android:id="@+id/nameText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginHorizontal="8dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:ellipsize="end"
+            android:maxLines="1"
+            tools:text="Username"/>
+
+        <TextView
+            android:id="@+id/scoreText"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:gravity="end"
+            tools:text="100.0"/>
+
+        <TextView
+            android:id="@+id/categoryText"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+            android:ellipsize="end"
+            android:maxLines="1"
+            tools:text="Science, Math"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

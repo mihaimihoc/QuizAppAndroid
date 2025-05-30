@@ -1,0 +1,40 @@
+Request: Array
+(
+)
+
+Response: Array
+(
+    [status] => error
+    [message] => Invalid user ID
+)
+
+Request: Array
+(
+)
+
+Response: Array
+(
+    [status] => error
+    [message] => Invalid user ID
+)
+
+Request: Array
+(
+)
+
+Response: Array
+(
+    [status] => error
+    [message] => Invalid user ID
+)
+
+Request: Array
+(
+)
+
+Response: Array
+(
+    [status] => error
+    [message] => Invalid user ID
+)
+
