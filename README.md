@@ -66,17 +66,17 @@ Follow these steps to get the Quiz Game app up and running on your local machine
 
 3.  **Update Base URL in Android App:**
     * You need to update the base URL in your Android app to point to your local PHP backend.
-    * Locate the file in your Android project where you define your API base URL (e.g., a `Constants.java` file, or within your `Retrofit` client setup).
+    * Locate the file in your Android project where you define your API base URL (e.g., `DatabaseHelper.java`, or within your `Retrofit` client setup).
     * Change the URL to point to your XAMPP server. If you are running the app on an emulator, use `http://10.0.2.2/quiz_api/`. If you are running on a physical device connected to the same network as your XAMPP server, use your PC's local IP address (e.g., `http://192.168.1.X/quiz_api/`).
 
-    *Example (assuming a `Constants.java` file):*
+    *Example (from `DatabaseHelper.java`):*
     ```java
-    public class Constants {
-        public static final String BASE_URL = "[http://10.0.2.2/quiz_api/](http://10.0.2.2/quiz_api/)"; // For Android Emulator
-        // public static final String BASE_URL = "http://YOUR_PC_IP_ADDRESS/quiz_api/"; // For Physical Device
+    public class DatabaseHelper {
+        public static final String SERVER_URL = "[http://192.168.56.1/quiz_api/](http://192.168.56.1/quiz_api/)"; // Replace with your local IP
+        // ... rest of the code
     }
     ```
-    *Replace `YOUR_PC_IP_ADDRESS` with your actual local IP address if using a physical device.*
+    *Replace `192.168.56.1` with `10.0.2.2` for an emulator or your actual PC's local IP address for a physical device.*
 
 4.  **Run the Android Application:**
     * Connect an Android device or start an Android Emulator.
